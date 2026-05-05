@@ -1,16 +1,7 @@
 .container {
-  width: 900px;
-  margin: auto;
-}
-
-@media(max-width: 900px) {
-  .container {
-    width: 500px;
-  }
-}
-
-@media(max-width: 500px) {
-  .container {
-    width: 300px;
-  }
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px; /* Empêche le texte de toucher les bords sur mobile */
+  box-sizing: border-box;
 }

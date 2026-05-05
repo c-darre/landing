@@ -14,17 +14,24 @@
 /* Utilities */
 body {
   margin: 0;
-  font-family: Open Sans;
+  font-family: 'Open Sans', sans-serif;
 }
 
 h1, h2, h3, h4 {
-  font-family: Poppins;
+  font-family: 'Poppins', sans-serif;
 }
 
-a {
-  text-decoration: none;
+h1 {
+  font-size: 80px;
+  margin-bottom: 10px;
 }
 
 .text-center {
   text-align: center;
+  font-size: 40px;
+  margin: 40px 0;
+}
+
+a {
+  text-decoration: none;
 }
