@@ -2,6 +2,10 @@
   max-width: 1000px;
   width: 100%;
   margin: 0 auto;
+<<<<<<< HEAD
   padding: 0 20px; /* Empêche le texte de toucher les bords sur mobile */
+=======
+  padding: 0 20px;
+>>>>>>> 93a25931cf75d8e1a7bb594f2fbd111a438d3fa2
   box-sizing: border-box;
 }
