@@ -1,35 +1,45 @@
-.card img {
-  width: 150px;
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px; 
+  margin-bottom: 60px;
 }
 
-.card p {
-  opacity: .5;
+.card-technique {
+  width: 100%;
+  border-radius: 5px;
+  text-align: center;
+  padding: 20px;
+  background-color: #f8f9fa;
 }
 
 .card {
-  width: 200px;
-  border-radius: 3px;
-  box-shadow: 0 0 5px rgb(230,230,230);
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
   text-align: center;
-  padding: 20px;
-  border: 1px solid rgb(230,230,230);
-}
+  padding: 30px;
+  width: 400px; /* Largeur fixe propre */
+  border: 1px solid rgb(240,240,240);
 
-.cards {
   display: flex;
-  justify-content: space-between;
-  margin-bottom: 30px;
-  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
 }
 
-@media(max-width: 900px) {
+.card img {
+  width: 100px;
+  margin-bottom: 20px;
+}
+
+.card p {
+  opacity: 0.7;
+  line-height: 1.5;
+}
+
+@media(max-width: 768px) {
   .card {
-    margin-bottom: 15px;
-  }
-}
-
-@media(max-width: 500px) {
-  .cards {
-    justify-content: space-around;
+    width: 100%;
   }
 }
